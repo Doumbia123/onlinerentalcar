@@ -1,0 +1,62 @@
+
+
+/*========== Index Page =========*/
+/*Main Section */
+
+.mainSection{
+    background-image: url("../../assets/system/img/slider.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+.mainSection::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+
+.mainSectionTitle{
+    font-size: 30px;
+    color: white !important;
+    line-height: 50px;
+    font-weight: 700;
+}
+/*Main Section End */
+/*========== Index Page  END=========*/
+/*Service offer*/
+
+.serviceoffercolor{
+    padding: 30px;
+
+}
+.serviceoffercolor:hover{
+    background-color: #4F5DEC;
+    cursor: pointer;
+    color: white;
+}
+.serviceoffercolor:hover{
+    background-color: #4F5DEC;
+    cursor: pointer;
+    color: white;
+}
+
+.serviceoffercolor h3{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.chooseCars{
+    background-color: #F2F2F2;
+    height: 500px;
+    background-image: url("../../assets/system/img/background-footer.jpg");
+    background-size: contain  ;
+    background-position:bottom ;
+    background-repeat:no-repeat ;
+}
+
+/*Service offer end*/

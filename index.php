@@ -123,15 +123,15 @@
 
     </div>
 </div>
-<!--Section service offert-->
+<!--Section service offert end-->
 
 <!--Section choose your car-->
 <div class="container-fluid chooseCars">
     <div class="row">
         <div class="col-sm-12">
-            <span class="d-flex justify-content-center">WHAT WE OFFER</span>
-            <p class="text-center">CHOOSE YOUR CAR</p>
-            <hr class="" style="width: 10%; height:5px; color: #4F5DEC;">
+            <h4 class="d-flex justify-content-center proposition" style="color: #4F5DEC; padding-top: 50px; font-size: 14px;">WHAT WE OFFER</h4>
+            <h3 class="text-center">CHOOSE YOUR CAR</h3>
+            <hr class="separate">
             <p class="text-center">Morbi mollis vestibulum sollicitudin. Nunc in eros a justo facilisis rutrum.
                 Aenean id ullamcorper libero <br>  Vestibulum imperdiet nibh vel magna lacinia commodo ultricies,</p>
         </div>
@@ -142,28 +142,186 @@
                 <div class="col-sm-12">
                     <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">BEST OFFERTS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">ECONOMIC CARS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">PREMIUM CAR</a>
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci, animi aperiam architecto, deserunt dolorem eaque et eum exercitationem fuga laborum minima, mollitia necessitatibus nulla reiciendis sapiente sint soluta tempore.
                         </div>
-                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aut beatae delectus, eos inventore, magni molestias neque non obcaecati perspiciatis saepe sequi sit voluptatibus? Aliquid blanditiis corporis nesciunt. Architecto, culpa!</div>
-                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet beatae expedita iusto mollitia, nisi officiis placeat quidem, sunt, tempore ut vero voluptatem! Consequuntur ex facilis ipsa nostrum soluta tempore.</div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"></div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <br>
+    <div class="card-deck vehicule">
+        <div class="card">
+            <div class="card-header">
+                Featured
+            </div>
+            <img src="assets/img/cars/c1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary active">
+                        <input type="radio" name="options" id="option1" autocomplete="off" checked> BOOK NOW</label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option2" autocomplete="off"> DETAILS</label>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                Featured
+            </div>
+            <img src="assets/img/cars/c1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary active">
+                        <input type="radio" name="options" id="option1" autocomplete="off" checked> BOOK NOW</label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option2" autocomplete="off"> DETAILS</label>
+                </div>
+            </div>
+        </div>
+      <div class="card">
+          <div class="card-header">
+              Featured
+          </div>
+            <img src="assets/img/cars/c1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary active">
+                        <input type="radio" name="options" id="option1" autocomplete="off" checked> BOOK NOW</label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option2" autocomplete="off"> DETAILS</label>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                Featured
+            </div>
+            <img src="assets/img/cars/c1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary active">
+                        <input type="radio" name="options" id="option1" autocomplete="off" checked> BOOK NOW</label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option2" autocomplete="off"> DETAILS</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="card-deck vehicule">
+        <div class="card">
+            <div class="card-header">
+                Featured
+            </div>
+            <img src="assets/img/cars/c1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary active">
+                        <input type="radio" name="options" id="option1" autocomplete="off" checked> BOOK NOW</label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option2" autocomplete="off"> DETAILS</label>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                Featured
+            </div>
+            <img src="assets/img/cars/c1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary active">
+                        <input type="radio" name="options" id="option1" autocomplete="off" checked> BOOK NOW</label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option2" autocomplete="off"> DETAILS</label>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                Featured
+            </div>
+            <img src="assets/img/cars/c1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary active">
+                        <input type="radio" name="options" id="option1" autocomplete="off" checked> BOOK NOW</label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option2" autocomplete="off"> DETAILS</label>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                Featured
+            </div>
+            <img src="assets/img/cars/c1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary active">
+                        <input type="radio" name="options" id="option1" autocomplete="off" checked> BOOK NOW</label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option2" autocomplete="off"> DETAILS</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--Section choose your car END-->
+
+    <!--Section How it works-->
+    <div class="container-fluid howItWorks">
+         <h4 class="d-flex justify-content-center proposition" style="color: #4F5DEC; padding-top: 50px; font-size: 14px;">WORK PROCESS</h4>
+         <h3 class="text-center">HOW IT WORKS</h3>
+          <hr class="separate">
+         <p class="text-center">Morbi mollis vestibulum sollicitudin. Nunc in eros a justo facilisis rutrum.
+         Aenean id ullamcorper libero <br>  Vestibulum imperdiet nibh vel magna lacinia commodo ultricies,</p>
+    </div>
+    <!--Section How it works end-->
 </div>
-<!--Section choose your car END-->
+
+
+
+
+
+
 
 
 <!-- Optional JavaScript -->

@@ -60,3 +60,28 @@
 }
 
 /*Service offer end*/
+/*Section choose your car*/
+.separate {
+    width: 60px;
+    height: 4px;
+    border-radius: 5px;
+    background-color:#4F5DEC ;
+}
+
+.vehicule{
+
+}
+/*Section choose your car end*/
+
+/*Section how it works*/
+.howItWorks{
+    background-color: transparent;
+    background-image: url("../../assets/system/img/backgroundfooter.jpg");
+    height: 500px;
+    width: auto;
+    background-size: contain  ;
+    background-position: bottom ;
+    background-repeat: no-repeat ;
+}
+
+/*Section how it works end*/

@@ -50,14 +50,7 @@
     font-size: 20px;
     margin-top: 20px;
 }
-.chooseCars{
-    background-color: #F2F2F2;
-    height: 500px;
-    background-image: url("../../assets/system/img/background-footer.jpg");
-    background-size: contain  ;
-    background-position:bottom ;
-    background-repeat:no-repeat ;
-}
+
 
 /*Service offer end*/
 /*Section choose your car*/
@@ -68,20 +61,34 @@
     background-color:#4F5DEC ;
 }
 
-.vehicule{
+.chooseCars{
+    background-color: beige;
+}
+
+.bookNow{
+    background-color: beige;
+    padding-top: 20px;
 
 }
 /*Section choose your car end*/
 
 /*Section how it works*/
 .howItWorks{
-    background-color: transparent;
-    background-image: url("../../assets/system/img/backgroundfooter.jpg");
-    height: 500px;
+    background-image: url("../../assets/system/img/background-footer.jpg");
+    height: 700px;
     width: auto;
     background-size: contain  ;
-    background-position: bottom ;
+    background-position: top ;
     background-repeat: no-repeat ;
+}
+
+.workProgress{
+    display: inline-block;;
+    width: 130px;
+    height: 130px;
+    line-height: 130px;
+    border: 2px solid #4f5dec;
+    border-radius: 100%;
 }
 
 /*Section how it works end*/
